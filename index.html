@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>KILL YOUR FRIENDS</title>
+    <meta name="viewport" content="width=710, initial-scale=1">
+    <style>
+      body {
+        margin: 0px;
+        position: relative;
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 24px;
+        color: white;
+      }
+      a { color: inherit; }
+      video {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+      }
+      main {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem;
+        box-sizing: border-box;
+        overflow-y: auto;
+      }
+      iframe {
+        flex-shrink: 0;
+        margin-bottom: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <video autoplay muted loop poster="background.jpeg">
+      <source type="video/mp4" src="background.mp4">
+    </video>
+
+    <main>
+      <div style="flex: 1"></div>
+      <img src="KILL YOUR FRIENDS Logo.png" alt="KILL YOUR FRIENDS" width="416" height="283">
+      <iframe src="https://store.steampowered.com/widget/675110/" frameborder="0" width="646" height="190"></iframe>
+      <div style="flex: 1"></div>
+      <a href="press">Press kit</a>
+    </main>
+  </body>
+</html>
